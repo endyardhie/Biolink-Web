@@ -37,12 +37,12 @@ body.page-shell {
     line-height: 1.45;
 }
 
-.social-row {
+.contact-shortcuts {
     gap: 14px;
     margin-bottom: 20px;
 }
 
-.social-link {
+.contact-shortcut {
     width: 46px;
     height: 46px;
     font-size: 1.18rem;
@@ -109,7 +109,7 @@ body.page-shell {
 .action-link:focus-visible,
 .details-summary:focus-visible,
 .location-link:focus-visible,
-.social-link:focus-visible {
+.contact-shortcut:focus-visible {
     outline: 3px solid rgba(18, 158, 133, 0.28);
     outline-offset: 3px;
 }
