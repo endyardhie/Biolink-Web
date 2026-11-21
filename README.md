@@ -9,7 +9,7 @@ Anda boleh menggunakan dan memodifikasi template untuk kebutuhan pribadi, usaha,
 | Template | Gaya | Sumber & panduan | Demo |
 | --- | --- | --- | --- |
 | Kopi Senja | Kedai kopi, hijau dan krem, logo SVG | [kopi-senja/](kopi-senja/) | [Buka demo](https://endyardhie.github.io/Biolink-Web/kopi-senja/) |
-| Sobat Jastip | Jasa titip dan ekspedisi, hijau dan terracotta, seluruh data contoh | [Sobat Jastip/](Sobat%20Jastip/) | [Buka demo](https://endyardhie.github.io/Biolink-Web/Sobat%20Jastip/) |
+| Sobat Jastip | Jasa titip dan ekspedisi, hijau dan terracotta, seluruh data contoh | [sobat-jastip/](sobat-jastip/) | [Buka demo](https://endyardhie.github.io/Biolink-Web/sobat-jastip/) |
 
 ## Menambahkan template
 

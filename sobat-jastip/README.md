@@ -2,7 +2,7 @@
 
 Template biolink jasa titip dan ekspedisi dengan tombol sosial, tautan pendaftaran, informasi tarif, format pengiriman, serta daftar lokasi dalam accordion.
 
-[Buka demo GitHub Pages](https://endyardhie.github.io/Biolink-Web/Sobat%20Jastip/) · [Kembali ke koleksi](../README.md)
+[Buka demo GitHub Pages](https://endyardhie.github.io/Biolink-Web/sobat-jastip/) · [Kembali ke koleksi](../README.md)
 
 ![Pratinjau Sobat Jastip versi demo](preview.jpg)
 
@@ -16,12 +16,12 @@ Ini adalah demo tampilan; bukan penawaran jasa pengiriman atau tarif yang berlak
 
 ## Cara menggunakan
 
-1. Salin seluruh folder `Sobat Jastip`.
+1. Salin seluruh folder `sobat-jastip`.
 2. Buka `index.html` di browser. Tidak perlu instalasi paket atau proses build untuk menjalankannya.
 3. Ganti data contoh dengan identitas dan kontak usaha Anda sendiri.
 4. Unggah isi folder ke hosting statis. Pastikan `index.html` berada pada root unggahan bersama CSS, JavaScript, dan logo.
 
-Untuk meng-host seluruh repo, halaman tersedia pada `/Sobat%20Jastip/`. Nama folder memakai spasi sesuai nama template; spasi ditulis `%20` di URL.
+Untuk meng-host seluruh repo, halaman tersedia pada `/sobat-jastip/`. Nama folder menggunakan huruf kecil dan tanda hubung.
 
 ## File dan penyesuaian
 
