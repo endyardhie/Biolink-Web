@@ -2,7 +2,7 @@
 
 Template biolink bertema kedai kopi dengan palet hijau dan krem. Dibuat menggunakan HTML, CSS, dan JavaScript biasa, tanpa framework, dependensi eksternal, atau proses build.
 
-[Lihat demo](https://kopisenja.mediakomputer.com/) · [Kembali ke koleksi](../README.md)
+[Lihat demo](https://endyardhie.github.io/Biolink-Web/kopi-senja/) · [Kembali ke koleksi](../README.md)
 
 ![Pratinjau Kopi Senja](preview.jpg)
 
@@ -21,7 +21,7 @@ Salin seluruh folder ini. Buka `index.html` di browser untuk mencoba tampilannya
 
 Untuk Cloudflare Pages dengan unggahan langsung, kompres **isi folder ini** menjadi ZIP dengan `index.html` di root ZIP. Untuk hosting yang terhubung ke Git, gunakan `kopi-senja` sebagai direktori hasil publikasi dan lewati proses build karena tidak ada kompilasi.
 
-Versi ini berdiri sendiri dan tidak memerlukan Google Apps Script. Perubahan di repo atau hosting ini tidak otomatis mengubah versi Apps Script maupun demo yang diunggah secara manual sebelumnya.
+Versi ini berdiri sendiri dan tidak memerlukan Google Apps Script. Demo GitHub Pages mengikuti perubahan pada branch `main` setelah publikasi selesai. Perubahan di repo tidak otomatis mengubah versi Apps Script maupun salinan di hosting lain yang diunggah secara manual.
 
 ## Bagian yang dapat diubah
 

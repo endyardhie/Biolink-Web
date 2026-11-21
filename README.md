@@ -8,7 +8,7 @@ Anda boleh menggunakan dan memodifikasi template untuk kebutuhan pribadi, usaha,
 
 | Template | Gaya | Sumber & panduan | Demo |
 | --- | --- | --- | --- |
-| Kopi Senja | Kedai kopi, hijau dan krem, logo SVG | [kopi-senja/](kopi-senja/) | [Buka demo](https://kopisenja.mediakomputer.com/) |
+| Kopi Senja | Kedai kopi, hijau dan krem, logo SVG | [kopi-senja/](kopi-senja/) | [Buka demo](https://endyardhie.github.io/Biolink-Web/kopi-senja/) |
 
 [![Pratinjau template Kopi Senja](kopi-senja/preview.jpg)](kopi-senja/)
 
@@ -34,6 +34,12 @@ python3 -m http.server 8000
 ```
 
 Buka `http://localhost:8000/kopi-senja/`. Fitur salin kode memakai Clipboard API dan menyediakan dialog salin manual jika browser menolak akses clipboard.
+
+## Demo di GitHub Pages
+
+Demo dipublikasikan dari branch `main`, folder `/ (root)`. Kopi Senja tersedia di [GitHub Pages](https://endyardhie.github.io/Biolink-Web/kopi-senja/).
+
+Setiap folder template baru dapat diakses pada `https://endyardhie.github.io/Biolink-Web/nama-folder/` setelah perubahan pada `main` selesai dipublikasikan oleh GitHub Pages. Pastikan folder memiliki `index.html` dan memakai jalur aset relatif.
 
 ## Struktur repo
 
