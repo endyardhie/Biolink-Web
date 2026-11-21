@@ -1,0 +1,340 @@
+/* style.css */
+
+/* Animasi Background Gradient yang Hidup */
+body {
+    background: linear-gradient(-45deg, #FAF9F6, #E0F2F1, #F1EFE8, #FBE9E7);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    cursor: auto;
+    min-height: 100vh;
+}
+
+body.page-shell {
+    align-items: flex-start;
+    padding: 18px 14px 22px;
+    color: #273734;
+}
+
+.content-shell {
+    max-width: 430px;
+    padding: 8px 4px 10px;
+}
+
+.logo-wrap {
+    margin-bottom: 8px;
+}
+
+.brand-title {
+    font-size: 1.62rem;
+    line-height: 1.12;
+    letter-spacing: 0;
+}
+
+.brand-subtitle {
+    margin-top: 4px;
+    margin-bottom: 18px;
+    font-size: 0.95rem;
+    line-height: 1.45;
+}
+
+.social-row {
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.social-link {
+    width: 46px;
+    height: 46px;
+    font-size: 1.18rem;
+    box-shadow: 0 10px 24px rgba(28, 88, 81, 0.12);
+}
+
+.section-label {
+    margin: 2px 0 8px 6px;
+    font-size: 0.76rem;
+    line-height: 1.2;
+    letter-spacing: 0;
+}
+
+.link-stack {
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.action-link,
+.details-card {
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.72);
+    border-color: rgba(255, 255, 255, 0.78);
+    box-shadow: 0 10px 26px rgba(18, 78, 70, 0.09);
+}
+
+.action-link,
+.details-summary,
+.location-link {
+    min-height: 52px;
+    padding: 13px 14px;
+}
+
+.action-link,
+.details-summary > div,
+.location-link {
+    min-width: 0;
+}
+
+.action-link i,
+.details-summary i,
+.location-link i {
+    font-size: 1.18rem;
+    width: 34px;
+}
+
+.link-label {
+    margin-right: 34px;
+    font-size: 1rem;
+    line-height: 1.32;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.details-summary {
+    background: rgba(255, 255, 255, 0.36);
+}
+
+.details-card[open] {
+    background: rgba(255, 255, 255, 0.82);
+    box-shadow: 0 14px 32px rgba(18, 78, 70, 0.12);
+}
+
+.action-link:focus-visible,
+.details-summary:focus-visible,
+.location-link:focus-visible,
+.social-link:focus-visible {
+    outline: 3px solid rgba(18, 158, 133, 0.28);
+    outline-offset: 3px;
+}
+
+.details-body {
+    padding: 12px 14px 16px;
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: #4b5c58;
+}
+
+.info-title {
+    margin: 4px 0 8px;
+    font-size: 1rem;
+    line-height: 1.35;
+}
+
+.check-list {
+    margin-bottom: 14px;
+}
+
+.check-list li {
+    margin-bottom: 6px;
+    overflow-wrap: anywhere;
+}
+
+.format-label {
+    margin-bottom: 7px;
+    font-size: 0.88rem;
+    line-height: 1.35;
+}
+
+.format-box {
+    padding: 10px 11px;
+    border-radius: 0 12px 12px 0;
+    background: rgba(255, 252, 246, 0.92);
+    font-size: 0.78rem;
+    line-height: 1.58;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+.location-list {
+    gap: 9px;
+    padding: 10px 12px 13px;
+}
+
+.location-link {
+    border-radius: 13px;
+    background: rgba(255, 255, 255, 0.64);
+}
+
+.site-footer {
+    margin-top: 22px;
+    margin-bottom: 0;
+    font-size: 0.72rem;
+    line-height: 1.35;
+    text-align: center;
+    color: rgba(86, 106, 101, 0.78);
+    letter-spacing: 0;
+}
+
+body.page-shell .brand-title,
+body.page-shell .section-label,
+body.page-shell .site-footer {
+    letter-spacing: 0;
+}
+
+body.has-custom-cursor,
+body.has-custom-cursor * {
+    cursor: none;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Custom Cursor Styles */
+.cursor-dot {
+    display: none;
+    width: 8px;
+    height: 8px;
+    background-color: #129E85;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.95), 0 2px 8px rgba(18, 158, 133, 0.35);
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease;
+}
+
+.cursor-outline {
+    display: none;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(192, 96, 74, 0.8); /* Warna Terracotta transparan */
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9998;
+    transform: translate(-50%, -50%);
+    transition: width 0.2s ease, height 0.2s ease, transform 0.15s ease-out;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    body.has-custom-cursor .cursor-dot,
+    body.has-custom-cursor .cursor-outline {
+        display: block;
+    }
+}
+
+/* Kustomisasi Tanda Panah Accordion (Details) */
+details > summary {
+    list-style: none;
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}
+details > summary::after {
+    content: '⌄';
+    font-family: system-ui, sans-serif;
+    color: #C0604A;
+    font-size: 1.18rem;
+    transition: transform 0.3s ease;
+    flex: 0 0 auto;
+}
+details[open] > summary::after {
+    transform: rotate(180deg);
+}
+
+/* Format Kotak Teks Custom Scrollbar */
+.format-box {
+    scrollbar-width: thin;
+    scrollbar-color: #129E85 #f4f4f4;
+}
+
+@media (min-width: 421px) {
+    body.page-shell {
+        padding-top: 24px;
+    }
+
+    .content-shell {
+        padding: 10px 6px 12px;
+    }
+
+    .brand-title {
+        font-size: 1.78rem;
+    }
+
+    .brand-subtitle {
+        font-size: 1rem;
+    }
+
+    .action-link,
+    .details-summary,
+    .location-link {
+        min-height: 56px;
+        padding: 14px 16px;
+    }
+
+    .link-label {
+        font-size: 1.04rem;
+    }
+
+    .details-body {
+        font-size: 0.94rem;
+    }
+
+    .format-box {
+        font-size: 0.82rem;
+    }
+}
+
+@media (max-width: 340px) {
+    body.page-shell {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .content-shell {
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 20px;
+    }
+
+    .brand-title {
+        font-size: 1.48rem;
+    }
+
+    .brand-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .action-link,
+    .details-summary,
+    .location-link {
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    .link-label {
+        margin-right: 28px;
+        font-size: 0.95rem;
+    }
+
+    .details-body {
+        padding-left: 11px;
+        padding-right: 11px;
+        font-size: 0.86rem;
+    }
+
+    .format-box {
+        font-size: 0.74rem;
+    }
+}
+
+/* Demo: no external fonts, icon services, or original business assets. */
+.local-icon { width: 1.2em; height: 1.2em; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; display: inline-block; vertical-align: middle; }
+.demo-notice { margin: 0 0 18px; padding: 10px 12px; max-width: 100%; border: 1px dashed #129e85; border-radius: 12px; background: #ffffffb3; color: #335650; font-size: 0.72rem; line-height: 1.6; text-align: center; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
