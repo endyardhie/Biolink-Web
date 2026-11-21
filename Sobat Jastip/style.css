@@ -336,5 +336,4 @@ details[open] > summary::after {
 
 /* Demo: no external fonts, icon services, or original business assets. */
 .local-icon { width: 1.2em; height: 1.2em; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; display: inline-block; vertical-align: middle; }
-.demo-notice { margin: 0 0 18px; padding: 10px 12px; max-width: 100%; border: 1px dashed #129e85; border-radius: 12px; background: #ffffffb3; color: #335650; font-size: 0.72rem; line-height: 1.6; text-align: center; }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
